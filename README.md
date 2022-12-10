@@ -1,10 +1,5 @@
 == imageDirect - Get found in the noise™ ==
 
-![Get found in the noise](https://www.imagedirect.com.au/wp-content/uploads/2017/07/ID_CMYKLogo_April2017_Final-01.svg)
-
-![Get found in the noise](https://avatars.githubusercontent.com/u/35517580?s=200&amp;v=4 "imageDirect - Get gound in the noise")
-
-
 # Plugin Registry
  
 imageDirect recommended plugins for Wordpress 6^
@@ -38,3 +33,6 @@ imageDirect recommended plugins for Wordpress 6^
 * @license    http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
 * @link       https://github.com/TGMPA/TGM-Plugin-Activation
 *** 
+
+![Get found in the noise](https://avatars.githubusercontent.com/u/35517580?s=200&amp;v=4 "imageDirect - Get gound in the noise")
+
