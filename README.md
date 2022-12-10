@@ -1,7 +1,7 @@
 **imageDirect** - Get found in the noise™  
 
 <a href="https://www.imagedirect.com.au/" style="width: 200px;height:auto">
-![Get found in the noise](https://www.imagedirect.com.au/wp-content/uploads/2017/07/ID_CMYKLogo_April2017_Final-01.svg "imageDirect - Get gound in the noise")
+<img src="https://www.imagedirect.com.au/wp-content/uploads/2017/07/ID_CMYKLogo_April2017_Final-01.svg" title="imageDirect - Get gound in the noise" />
 </a>
 
 ***
