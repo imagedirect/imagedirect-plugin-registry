@@ -1,9 +1,15 @@
 == imageDirect - Get found inthe noise™ ==
 
-# Plugin Pegistry
+# Plugin Registry
  
-* imageDirect recommended plugins registry for Wordpress 6^
+imageDirect recommended plugins for Wordpress 6^
 
+ * @version    1.0.0
+ * @author     imageDirect WebTeam
+ * @copyright  Copyright (c) 2022 imageDitect Pty Ltd
+ * @url        https://imageDitect.com.au/
+ * @see        https://github.com/imagedirect/imagedirect-plugin-registry/
+ 
 == release notes ==
 
 * Initial - v1.0.0
@@ -11,7 +17,7 @@
 #### Credits
 
  * @see http://tgmpluginactivation.com/configuration/ for detailed documentation.
- *
+ 
  * @package    TGM-Plugin-Activation
  * @subpackage imageDirect
  * @version    2.6.1
