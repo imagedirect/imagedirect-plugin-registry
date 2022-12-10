@@ -1,18 +1,24 @@
-== imageDirect - Get found in the noise™ ==
+**imageDirect** - Get found in the noise™  
 
-# Plugin Registry
- 
+<a href="https://www.imagedirect.com.au/" style="width: 200px;height:auto">
+![Get found in the noise](https://www.imagedirect.com.au/wp-content/uploads/2017/07/ID_CMYKLogo_April2017_Final-01.svg "imageDirect - Get gound in the noise")
+</a>
+
+***
+# Plugin Registry.  
 imageDirect recommended plugins for Wordpress 6^
+***
 
  * @version    1.0.0
  * @author     imageDirect WebTeam
  * @copyright  Copyright (c) 2022 imageDitect Pty Ltd
  * @url        https://imageDitect.com.au/
  * @see        https://github.com/imagedirect/imagedirect-plugin-registry/
- 
+***
+
 == Change log ==
 
-* bwahahahAHAHA
+- **~~bwahahahAHAHA~~**
  
 == Release notes ==
 
@@ -34,5 +40,4 @@ imageDirect recommended plugins for Wordpress 6^
 * @link       https://github.com/TGMPA/TGM-Plugin-Activation
 *** 
 
-![Get found in the noise](https://avatars.githubusercontent.com/u/35517580?s=200&amp;v=4 "imageDirect - Get gound in the noise")
 
