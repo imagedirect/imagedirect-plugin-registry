@@ -13,6 +13,8 @@ imageDirect recommended plugins for Wordpress 6^
 == release notes ==
 
 * Initial - v1.0.0
+* Adventurous Albatross 
+  - v1.0.1
 
 #### Credits
 
