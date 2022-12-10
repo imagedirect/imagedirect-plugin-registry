@@ -1,9 +1,7 @@
-**imageDirect** - Get found in the noise™  
-
 <a href="https://www.imagedirect.com.au/">
 <img width="160" height="67" src="https://www.imagedirect.com.au/wp-content/uploads/2017/07/ID_CMYKLogo_April2017_Final-01.svg" title="imageDirect - Get gound in the noise" />
 </a>
-
+## **imageDirect** - Get found in the noise™  
 ***
 # Plugin Registry.  
 imageDirect recommended plugins for Wordpress 6^
