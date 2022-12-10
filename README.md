@@ -2,7 +2,7 @@
 
 # Plugin Pegistry
  
- imageDirect recommended functionality plugins
+* imageDirect recommended plugins registry for Wordpress 6^
 
 == release notes ==
 
@@ -10,8 +10,6 @@
 
 #### Credits
 
-/**
- *
  * @see http://tgmpluginactivation.com/configuration/ for detailed documentation.
  *
  * @package    TGM-Plugin-Activation
@@ -21,5 +19,4 @@
  * @copyright  Copyright (c) 2011, Thomas Griffin
  * @license    http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link       https://github.com/TGMPA/TGM-Plugin-Activation
- */
   
