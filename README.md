@@ -1,4 +1,7 @@
-== imageDirect - Get found inthe noise™ ==
+== imageDirect - Get found in the noise™ ==
+
+![Get found in the noise]([direct link to image](https://www.imagedirect.com.au/wp-content/uploads/2017/07/ID_CMYKLogo_April2017_Final-01.svg))
+
 
 # Plugin Registry
  
@@ -10,9 +13,14 @@ imageDirect recommended plugins for Wordpress 6^
  * @url        https://imageDitect.com.au/
  * @see        https://github.com/imagedirect/imagedirect-plugin-registry/
  
-== release notes ==
+== Change log ==
 
-* Initial - v1.0.0
+* bwahahahAHAHA
+ 
+== Release notes ==
+
+* Initial commit
+  - v1.0.0
 * Adventurous Albatross 
   - v1.0.1
 
