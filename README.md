@@ -9,11 +9,11 @@
 #### imageDirect recommended plugins for Wordpress 6^.  
 ***
 
- * @version    1.0.0
- * @author     imageDirect WebTeam
- * @copyright  Copyright (c) 2022 imageDitect Pty Ltd
- * @url        https://imageDitect.com.au/
- * @see        https://github.com/imagedirect/imagedirect-plugin-registry/
+* @version    : v1.0.1  
+* @author     : imageDirect WebTeam  
+* @copyright  : &copy;2022 imageDirect Pty Ltd.  
+* @url        : https://imageDirect.com.au/  
+* @see        : https://github.com/imagedirect/imagedirect-plugin-registry/  
 ***
 
 == Change log ==
