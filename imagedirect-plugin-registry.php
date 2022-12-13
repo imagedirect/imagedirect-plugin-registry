@@ -6,7 +6,7 @@
  * Plugin Name: imageDirect Plugin Registry
  *
  * Description: Registry of recommended plugins
- * Version: 1.0.1
+ * Version: 1.0.2
  *
  *  Author: ImageDirect WebTeam
  * Author URI: https://www.imagedirect.com.au/
@@ -35,7 +35,7 @@
  * @since 1.0.0
  *
  * -------------------------------------------------- */
-defined( 'WPINC' ) || die;
+defined('WPINC') || die;
 
 /**
  *
@@ -44,12 +44,13 @@ defined( 'WPINC' ) || die;
  * @since 1.0.0
  *
  * -------------------------------------------------- */
-add_action( 'init', function(): void {
+add_action('init', function (): void
+{
 
         /**
          * Register plugins.
          * @since  1.0.4
          * ----------------- */
-        require_once plugin_dir_path( __FILE__ ) . '/inc/register-plugins.php';
-        require_once plugin_dir_path( __FILE__ ) . '/lib/tgm-plugin-activation/class-tgm-plugin-activation.php';
-} );
+        require_once plugin_dir_path(__FILE__) . '/inc/register-plugins.php';
+        require_once plugin_dir_path(__FILE__) . '/lib/tgm-plugin-activation/class-tgm-plugin-activation.php';
+});
