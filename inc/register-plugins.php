@@ -22,6 +22,18 @@ if (!function_exists('imagedirect_register_plugins')) :
         return [
             [
                 /**
+                 * Admin Notices Manager
+                 * 
+                 * @link   https://wordpress.org/plugins/admin-notices-manager/
+                 * @since  1.0.7
+                 * ---------------- */
+                'name'             => 'Admin Notices Manager',
+                'slug'             => 'admin-notices-manager',
+                'required'         => false,
+                'force_activation' => false,
+            ],
+            [
+                /**
                  * Optimize Database after Deleting Revisions
                  * 
                  * @link   https://wordpress.org/plugins/rvg-optimize-database/
