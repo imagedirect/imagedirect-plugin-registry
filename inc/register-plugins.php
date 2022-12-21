@@ -22,6 +22,30 @@ if (!function_exists('imagedirect_register_plugins')) :
         return [
             [
                 /**
+                 * WP Map Block
+                 * 
+                 * @link   https://wordpress.org/plugins/wp-map-block/
+                 * @since  1.0.7
+                 * ---------------- */
+                'name'             => 'WP Map Block',
+                'slug'             => 'wp-map-block',
+                'required'         => false,
+                'force_activation' => false,
+            ],
+            [
+                /**
+                 * Media Deduper
+                 * 
+                 * @link   https://wordpress.org/plugins/media-deduper/
+                 * @since  1.0.7
+                 * ---------------- */
+                'name'             => 'Media Deduper',
+                'slug'             => 'media-deduper',
+                'required'         => false,
+                'force_activation' => false,
+            ],
+            [
+                /**
                  * Enable Media Replace
                  * 
                  * @link   https://en-au.wordpress.org/plugins/enable-media-replace/
