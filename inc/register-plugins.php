@@ -22,6 +22,30 @@ if (!function_exists('imagedirect_register_plugins')) :
         return [
             [
                 /**
+                 * Optimize Database after Deleting Revisions
+                 * 
+                 * @link   https://wordpress.org/plugins/rvg-optimize-database/
+                 * @since  1.0.7
+                 * ---------------- */
+                'name'             => 'Optimize Database after Deleting Revisions',
+                'slug'             => 'rvg-optimize-database',
+                'required'         => false,
+                'force_activation' => false,
+            ],
+            [
+                /**
+                 * Phoenix Media Rename
+                 * 
+                 * @link   https://wordpress.org/plugins/phoenix-media-rename/
+                 * @since  1.0.7
+                 * ---------------- */
+                'name'             => 'Phoenix Media Rename',
+                'slug'             => 'phoenix-media-rename',
+                'required'         => false,
+                'force_activation' => false,
+            ],
+            [
+                /**
                  * WP Map Block
                  * 
                  * @link   https://wordpress.org/plugins/wp-map-block/
