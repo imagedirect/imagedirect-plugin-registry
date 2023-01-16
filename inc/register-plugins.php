@@ -118,6 +118,18 @@ if (!function_exists('imagedirect_register_plugins')) :
             ],
             [
                 /**
+                 * SVG Icon
+                 *
+                 * @link   https://en-au.wordpress.org/plugins/svg-block/
+                 * @since  1.0.8
+                 * ---------------- */
+                'name'             => 'SVG Block',
+                'slug'             => 'svg-block',
+                'required'         => false,
+                'force_activation' => false,
+            ],
+            [
+                /**
                  * Icon Separator
                  *
                  * @link   https://en-au.wordpress.org/plugins/icon-separator/
