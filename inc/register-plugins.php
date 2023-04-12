@@ -23,6 +23,18 @@ if ( ! function_exists( 'imagedirect_get_plugin_registery' ) ) :
         {
 
                 return [
+                     [
+                        /**
+                         * Redirection
+                         *
+                         * @link   https://en-au.wordpress.org/plugins/redirection/
+                         * @since  1.0.7
+                         * ---------------- */
+                        'name'             => 'Redirection',
+                        'slug'             => 'redirection',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
                     [
                         /**
                          * Prime Mover
