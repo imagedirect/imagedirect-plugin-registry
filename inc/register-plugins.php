@@ -16,10 +16,10 @@ require_once get_theme_file_path( 'lib/tgm-plugin-activation/class-tgm-plugin-ac
 
 add_action( 'tgmpa_register', 'imagedirect_register_plugins' );
 
-if ( ! function_exists( 'imagedirect_get_plugin_registery' ) ) :
+if ( ! function_exists( 'imagedirect_get_plugin_registry' ) ) :
 
 
-        function imagedirect_get_plugin_registery(): array
+        function imagedirect_get_plugin_registry(): array
         {
 
                 return [
@@ -589,7 +589,7 @@ if ( ! function_exists( 'imagedirect_register_plugins' ) ) :
                 );
 
                 tgmpa(
-                        imagedirect_get_plugin_registery(),
+                        imagedirect_get_plugin_registry(),
                         $config
                 );
         }
