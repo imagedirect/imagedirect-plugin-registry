@@ -25,6 +25,18 @@ if ( ! function_exists( 'imagedirect_get_plugin_registry' ) ) :
                 return [
                      [
                         /**
+                         * Post Types Order
+                         *
+                         * @link   https://wordpress.org/plugins/post-types-order/
+                         * @since  1.0.12
+                         * ---------------- */
+                        'name'             => 'Post Types Order',
+                        'slug'             => 'post-types-order',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                     [
+                        /**
                          * Redirection
                          *
                          * @link   https://en-au.wordpress.org/plugins/redirection/

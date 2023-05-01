@@ -6,7 +6,7 @@
  * Plugin Name: imageDirect Plugin Registry
  *
  * Description: Registry of recommended plugins
- * Version: 1.0.2
+ * Version: 1.0.12
  *
  *  Author: ImageDirect WebTeam
  * Author URI: https://www.imagedirect.com.au/

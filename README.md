@@ -9,7 +9,7 @@
 #### imageDirect recommended plugins for Wordpress 6^.  
 ***
 
-* @version    : v1.0.1  
+* @version    : v1.0.12 
 * @author     : imageDirect WebTeam  
 * @copyright  : &copy;2022 imageDirect Pty Ltd.  
 * @url        : https://imageDirect.com.au/  
@@ -26,6 +26,8 @@
   - v1.0.0
 * Adventurous Albatross 
   - v1.0.1
+* Adventurous Bandicoot
+  - v1.0.12
 ***
 
 #### Credits
