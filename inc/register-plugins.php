@@ -86,7 +86,7 @@ if ( ! function_exists( 'imagedirect_get_plugin_registry' ) ) :
                     [
                         /**
                          * Phoenix Media Rename
-                         *
+                         * @todo   Monitor
                          * @link   https://wordpress.org/plugins/phoenix-media-rename/
                          * @since  1.0.7
                          * ---------------- */
@@ -110,7 +110,7 @@ if ( ! function_exists( 'imagedirect_get_plugin_registry' ) ) :
                     [
                         /**
                          * Media Deduper
-                         *
+                         * @todo   Monitor
                          * @link   https://wordpress.org/plugins/media-deduper/
                          * @since  1.0.7
                          * ---------------- */
