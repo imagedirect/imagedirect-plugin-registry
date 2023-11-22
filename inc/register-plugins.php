@@ -22,500 +22,365 @@ if (!function_exists('imagedirect_get_plugin_registry')) :
     function imagedirect_get_plugin_registry(): array
     {
 
-        return [
-            [
-                /**
-                 * Carousel Slider Block for Gutenburg
-                 *
-                 * @link   https://wordpress.org/plugins/carousel-block/
-                 * @since  1.0.13
-                 * ---------------- */
-                'name'             => 'Carousel Slider Block for Gutenberg',
-                'slug'             => 'carousel-block',
-                'required'         => false,
-                'force_activation' => false,
+       return [
+            [ 
+            /**
+                         * Login with Google
+                         *
+                         * @link https://en-au.wordpress.org/plugins/disable-user-password-reset-emails/
+                         * @since 1.0.15
+                         * ---------------- */
+                        'name'             => 'Disable Password Reset Emails',
+                        'slug'             => 'disable-user-password-reset-emails',
+                        'required'         => false,
+                        'force_activation' => false,
+            
             ],
-            [
-                /**
-                 * Post Types Order
-                 *
-                 * @link   https://wordpress.org/plugins/post-types-order/
-                 * @since  1.0.12
-                 * ---------------- */
-                'name'             => 'Post Types Order',
-                'slug'             => 'post-types-order',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Redirection
-                 *
-                 * @link   https://en-au.wordpress.org/plugins/redirection/
-                 * @since  1.0.7
-                 * ---------------- */
-                'name'             => 'Redirection',
-                'slug'             => 'redirection',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Prime Mover
-                 *
-                 * @link   https://en-au.wordpress.org/plugins/prime-mover/
-                 * @since  1.0.7
-                 * ---------------- */
-                'name'             => 'Prime Mover',
-                'slug'             => 'prime-mover',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Admin Notices Manager
-                 *
-                 * @link   https://wordpress.org/plugins/admin-notices-manager/
-                 * @since  1.0.7
-                 * ---------------- */
-                'name'             => 'Admin Notices Manager',
-                'slug'             => 'admin-notices-manager',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Optimize Database after Deleting Revisions
-                 *
-                 * @link   https://wordpress.org/plugins/rvg-optimize-database/
-                 * @since  1.0.7
-                 * ---------------- */
-                'name'             => 'Optimize Database after Deleting Revisions',
-                'slug'             => 'rvg-optimize-database',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Phoenix Media Rename
-                 * @todo   Monitor
-                 * @link   https://wordpress.org/plugins/phoenix-media-rename/
-                 * @since  1.0.7
-                 * ---------------- */
-                'name'             => 'Phoenix Media Rename',
-                'slug'             => 'phoenix-media-rename',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * WP Map Block
-                 *
-                 * @link   https://wordpress.org/plugins/wp-map-block/
-                 * @since  1.0.7
-                 * ---------------- */
-                'name'             => 'WP Map Block',
-                'slug'             => 'wp-map-block',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Media Deduper
-                 * @todo   Monitor
-                 * @link   https://wordpress.org/plugins/media-deduper/
-                 * @since  1.0.7
-                 * ---------------- */
-                'name'             => 'Media Deduper',
-                'slug'             => 'media-deduper',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Enable Media Replace
-                 *
-                 * @link   https://en-au.wordpress.org/plugins/enable-media-replace/
-                 * @since  1.0.7
-                 * ---------------- */
-                'name'             => 'Enable Media Replace',
-                'slug'             => 'enable-media-replace',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Meta pixel for WordPress
-                 *
-                 * @link   https://en-au.wordpress.org/plugins/official-facebook-pixel/
-                 * @since  1.0.7
-                 * ---------------- */
-                'name'             => 'Meta pixel for WordPress',
-                'slug'             => 'official-facebook-pixel',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * SVG Icon
-                 *
-                 * @link   https://en-au.wordpress.org/plugins/svg-block/
-                 * @since  1.0.8
-                 * ---------------- */
-                'name'             => 'SVG Block',
-                'slug'             => 'svg-block',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Icon Separator
-                 *
-                 * @link   https://en-au.wordpress.org/plugins/icon-separator/
-                 * @since  1.0.3
-                 * ---------------- */
-                'name'             => 'Icon Separator',
-                'slug'             => 'icon-separator',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * SVG Support
-                 *
-                 * @link   https://en-au.wordpress.org/plugins/svg-support/
-                 * @since  1.0.3
-                 * ---------------- */
-                'name'             => 'SVG Support',
-                'slug'             => 'svg-support',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Super Block Slider
-                 *
-                 * @link   https://en-au.wordpress.org/plugins/super-block-slider/
-                 * @since  1.0.3
-                 * ---------------- */
-                'name'             => 'Super Block Slider *',
-                'slug'             => 'super-block-slider',
-                'required'         => true,
-                'force_activation' => true,
-            ],
-            [
-                /**
-                 * Instant Images
-                 *
-                 * @link   https://en-au.wordpress.org/plugins/instant-images/
-                 * @since  1.0.3
-                 * ---------------- */
-                'name'             => 'Instant Images *',
-                'slug'             => 'instant-images',
-                'required'         => true,
-                'force_activation' => true,
-            ],
-            [
-                /**
-                 * Custom Post Type UI
-                 *
-                 * @since 1.0.3
-                 * ---------------- */
-                'name'             => 'Custom Post Type UI *',
-                'slug'             => 'custom-post-type-ui',
-                'required'         => true,
-                'force_activation' => true,
-            ],
-            [
-                /**
-                 * Breadcrumb Block
-                 *
-                 * @link   https://en-au.wordpress.org/plugins/breadcrumb-block/
-                 * @since 1.0.3
-                 * ---------------- */
-                'name'             => 'Breadcrumb Block',
-                'slug'             => 'breadcrumb-block',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Blocks Animation
-                 *
-                 * @since 1.0.3
-                 * ---------------- */
-                'name'             => 'Blocks Animation',
-                'slug'             => 'blocks-animation',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Boxzilla
-                 *
-                 * @since 1.0.3
-                 * ---------------- */
-                'name'             => 'Boxzilla',
-                'slug'             => 'boxzilla',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Akismet Antispam
-                 *
-                 * @since 1.0.3
-                 * ---------------- */
-                'name'             => 'Akismet Antispam',
-                'slug'             => 'akismet',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Jetpack
-                 *
-                 * @link   https://en-au.wordpress.org/plugins/jetpack/
-                 * @since  1.0.3
-                 * ---------------- */
-                'name'             => 'Jetpack',
-                'slug'             => 'jetpack',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Post Type Switcher
-                 *
-                 * @link  https://en-au.wordpress.org/plugins/post-type-switcher/
-                 * @since 1.0.3
-                 * ---------------- */
-                'name'             => 'Post Type Switcher',
-                'slug'             => 'post-type-switcher',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Duplicate Post
-                 *
-                 * @since 1.0.3
-                 * ---------------- */
-                'name'             => 'Duplicate Post',
-                'slug'             => 'duplicate-post',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Disable Plugin Update Emails
-                 *
-                 * @link   https://wordpress.org/plugins/disable-theme-and-plugin-auto-update-emails/
-                 * @since  1.0.3
-                 * ---------------- */
-                'name'             => 'Disable Plugin Update Emails',
-                'slug'             => 'disable-theme-and-plugin-auto-update-emails',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Disable Emojis
-                 *
-                 * @link   https://wordpress.org/plugins/disable-emojis/
-                 * @since  1.0.3
-                 * ---------------- */
-                'name'             => 'Disable Emojis',
-                'slug'             => 'disable-emojis',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Wordpress Gutenberg
-                 *
-                 * @link   https://en-au.wordpress.org/plugins/gutenberg/
-                 * @since  1.0.3
-                 * ---------------- */
-                'name'             => 'Gutenberg',
-                'slug'             => 'gutenberg',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Wordpress Importer
-                 *
-                 * @since 1.0.3
-                 * ---------------- */
-                'name'             => 'Wordpress Importer',
-                'slug'             => 'wordpress-importer',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Performance Lab
-                 *
-                 * @link   https://en-au.wordpress.org/plugins/performance-lab/
-                 * @since  1.0.3
-                 * ---------------- */
-                'name'             => 'Performance Lab',
-                'slug'             => 'performance-lab',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Rollback Update Failure
-                 *
-                 * @link   https://en-au.wordpress.org/plugins/rollback-update-failure/
-                 * @since  1.0.3
-                 * ---------------- */
-                'name'             => 'Rollback Update Failure',
-                'slug'             => 'rollback-update-failure',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Google Site Kit
-                 *
-                 * @link   https://en-au.wordpress.org/plugins/google-site-kit/
-                 * @since  1.0.3
-                 * ---------------- */
-                'name'             => 'Google Site Kit',
-                'slug'             => 'google-site-kit',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Health Check
-                 *
-                 * @since 1.0.3
-                 * ---------------- */
-                'name'             => 'Health Check',
-                'slug'             => 'health-check',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * WP Statuses
-                 *
-                 * @since 1.0.4
-                 * ---------------- */
-                'name'               => 'WP Statuses',
-                'slug'               => 'wp-statuses',
-                'source'             => 'https://github.com/imath/wp-statuses/archive/master.zip',
-                'required'           => false,
-                'force_activation'   => false,
-                'force_deactivation' => false,
-            ],
-            [
-                /**
-                 * Scheduled Post Trigger
-                 *
-                 * @link  https://wordpress.org/plugins/scheduled-post-trigger/
-                 * @since 1.0.4
-                 * ---------------- */
-                'name'     => 'Scheduled Post Trigger',
-                'slug'     => 'scheduled-post-trigger',
-                'required' => false,
-            ],
-            [
-                /**
-                 * Defender Security
-                 *
-                 * @author https://wpmudev.com/
-                 * @link   https://wordpress.org/plugins/defender-security/
-                 * @since  1.0.3
-                 * ---------------- */
-                'name'             => 'Defender Security',
-                'slug'             => 'defender-security',
-                'is_callable'      => 'wp_defender',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Hummingbird Performance
-                 *
-                 * @author https://wpmudev.com/
-                 * @link   https://wordpress.org/plugins/hummingbird-performance/
-                 * @since  1.0.3
-                 * ---------------- */
-                'name'             => 'Hummingbird Performance',
-                'slug'             => 'hummingbird-performance',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Forminator
-                 *
-                 * @author https://wpmudev.com/
-                 * @link   https://wordpress.org/plugins/forminator/
-                 * @since  1.0.3
-                 * ---------------- */
-                'name'             => 'Forminator',
-                'slug'             => 'forminator',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Branda White Labeling
-                 *
-                 * @author https://wpmudev.com/
-                 * @link   https://wordpress.org/plugins/branda-white-labeling/
-                 * @since  1.0.3
-                 * ---------------- */
-                'name'             => 'Branda White Labeling',
-                'slug'             => 'branda-white-labeling',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Beehive Analytics
-                 *
-                 * @author https://wpmudev.com/
-                 * @link   https://wordpress.org/plugins/beehive-analytics/
-                 * @since  1.0.3
-                 * ---------------- */
-                'name'             => 'Beehive Analytics',
-                'slug'             => 'beehive-analytics',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Smartcrawl SEO
-                 *
-                 * @author https://wpmudev.com/
-                 * @link   https://wordpress.org/plugins/smartcrawl-seo/
-                 * @since  1.0.3
-                 * ---------------- */
-                'name'             => 'Smartcrawl SEO',
-                'slug'             => 'smartcrawl-seo',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-            [
-                /**
-                 * Smush
-                 *
-                 * @author https://wpmudev.com/
-                 * @since 1.0.3
-                 * ---------------- */
-                'name'             => 'Smush',
-                'slug'             => 'wp-smushit',
-                'required'         => false,
-                'force_activation' => false,
-            ],
-        ];
+                    [
+                        /**
+                         * Login with Google
+                         *
+                         * @link https://en-au.wordpress.org/plugins/login-with-google/
+                         * @since 1.0.14
+                         * ---------------- */
+                        'name'             => 'Log in with Google',
+                        'slug'             => 'login-with-google',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * MailerSend – Official SMTP Integration
+                         *
+                         * @link https://en-au.wordpress.org/plugins/mailersend-official-smtp-integration/
+                         * @since 1.0.14
+                         * ---------------- */
+                        'name'             => 'MailerSend – Official SMTP Integration',
+                        'slug'             => 'mailersend-official-smtp-integration',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * Carousel Slider Block for Gutenberg
+                         *
+                         * @link   https://wordpress.org/plugins/carousel-block/
+                         * @since  1.0.13
+                         * ---------------- */
+                        'name'             => 'Carousel Slider Block for Gutenberg',
+                        'slug'             => 'carousel-block',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * Disable Comments
+                         *
+                         * @link   https://en-au.wordpress.org/plugins/disable-comments/
+                         * @since  1.0.12
+                         * ---------------- */
+                        'name'             => 'Disable Comments',
+                        'slug'             => 'disable-comments',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * Default Featured Image
+                         *
+                         * @link   https://wordpress.org/plugins/default-featured-image/
+                         * @since  1.0.7
+                         * ---------------- */
+                        'name'             => 'Default Featured Image',
+                        'slug'             => 'default-featured-image',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * Redirection
+                         *
+                         * @link   https://en-au.wordpress.org/plugins/redirection/
+                         * @since  1.0.7
+                         * ---------------- */
+                        'name'             => 'Redirection',
+                        'slug'             => 'redirection',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * Prime Mover
+                         *
+                         * @link   https://en-au.wordpress.org/plugins/prime-mover/
+                         * @since  1.0.7
+                         * ---------------- */
+                        'name'             => 'Prime Mover',
+                        'slug'             => 'prime-mover',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * Admin Notices Manager
+                         *
+                         * @link   https://wordpress.org/plugins/admin-notices-manager/
+                         * @since  1.0.7
+                         * ---------------- */
+                        'name'             => 'Admin Notices Manager',
+                        'slug'             => 'admin-notices-manager',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * Optimize Database after Deleting Revisions
+                         *
+                         * @link   https://wordpress.org/plugins/rvg-optimize-database/
+                         * @since  1.0.7
+                         * ---------------- */
+                        'name'             => 'Optimize Database after Deleting Revisions',
+                        'slug'             => 'rvg-optimize-database',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * WP Map Block
+                         *
+                         * @link   https://wordpress.org/plugins/wp-map-block/
+                         * @since  1.0.7
+                         * ---------------- */
+                        'name'             => 'WP Map Block',
+                        'slug'             => 'wp-map-block',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * Enable Media Replace
+                         *
+                         * @link   https://en-au.wordpress.org/plugins/enable-media-replace/
+                         * @since  1.0.7
+                         * ---------------- */
+                        'name'             => 'Enable Media Replace',
+                        'slug'             => 'enable-media-replace',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * Meta pixel for WordPress
+                         *
+                         * @link   https://en-au.wordpress.org/plugins/official-facebook-pixel/
+                         * @since  1.0.7
+                         * ---------------- */
+                        'name'             => 'Meta pixel for WordPress',
+                        'slug'             => 'official-facebook-pixel',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * SVG Icon
+                         *
+                         * @link   https://en-au.wordpress.org/plugins/svg-block/
+                         * @since  1.0.8
+                         * ---------------- */
+                        'name'             => 'SVG Block',
+                        'slug'             => 'svg-block',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * Icon Separator
+                         *
+                         * @link   https://en-au.wordpress.org/plugins/icon-separator/
+                         * @since  1.0.3
+                         * ---------------- */
+                        'name'             => 'Icon Separator',
+                        'slug'             => 'icon-separator',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * SVG Support
+                         *
+                         * @link   https://en-au.wordpress.org/plugins/svg-support/
+                         * @since  1.0.3
+                         * ---------------- */
+                        'name'             => 'SVG Support',
+                        'slug'             => 'svg-support',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * Super Block Slider
+                         *
+                         * @link   https://en-au.wordpress.org/plugins/super-block-slider/
+                         * @since  1.0.3
+                         * ---------------- */
+                        'name'             => 'Super Block Slider *',
+                        'slug'             => 'super-block-slider',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * Instant Images
+                         *
+                         * @link   https://en-au.wordpress.org/plugins/instant-images/
+                         * @since  1.0.3
+                         * ---------------- */
+                        'name'             => 'Instant Images *',
+                        'slug'             => 'instant-images',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * Breadcrumb Block
+                         *
+                         * @link   https://en-au.wordpress.org/plugins/breadcrumb-block/
+                         * @since 1.0.3
+                         * ---------------- */
+                        'name'             => 'Breadcrumb Block',
+                        'slug'             => 'breadcrumb-block',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * Blocks Animation
+                         *
+                         * @since 1.0.3
+                         * ---------------- */
+                        'name'             => 'Blocks Animation',
+                        'slug'             => 'blocks-animation',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * Akismet Antispam
+                         *
+                         * @since 1.0.3
+                         * ---------------- */
+                        'name'             => 'Akismet Antispam',
+                        'slug'             => 'akismet',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * Jetpack
+                         *
+                         * @link   https://en-au.wordpress.org/plugins/jetpack/
+                         * @since  1.0.3
+                         * ---------------- */
+                        'name'             => 'Jetpack',
+                        'slug'             => 'jetpack',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * Post Type Switcher
+                         *
+                         * @link  https://en-au.wordpress.org/plugins/post-type-switcher/
+                         * @since 1.0.3
+                         * ---------------- */
+                        'name'             => 'Post Type Switcher',
+                        'slug'             => 'post-type-switcher',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * Duplicate Post
+                         *
+                         * @since 1.0.3
+                         * ---------------- */
+                        'name'             => 'Duplicate Post',
+                        'slug'             => 'duplicate-post',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * Disable Plugin Update Emails
+                         *
+                         * @link   https://wordpress.org/plugins/disable-theme-and-plugin-auto-update-emails/
+                         * @since  1.0.3
+                         * ---------------- */
+                        'name'             => 'Disable Plugin Update Emails',
+                        'slug'             => 'disable-theme-and-plugin-auto-update-emails',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * Disable Emojis
+                         *
+                         * @link   https://wordpress.org/plugins/disable-emojis/
+                         * @since  1.0.3
+                         * ---------------- */
+                        'name'             => 'Disable Emojis',
+                        'slug'             => 'disable-emojis',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * Wordpress Gutenberg
+                         *
+                         * @link   https://en-au.wordpress.org/plugins/gutenberg/
+                         * @since  1.0.3
+                         * ---------------- */
+                        'name'             => 'Gutenberg',
+                        'slug'             => 'gutenberg',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * Performance Lab
+                         *
+                         * @link   https://en-au.wordpress.org/plugins/performance-lab/
+                         * @since  1.0.3
+                         * ---------------- */
+                        'name'             => 'Performance Lab',
+                        'slug'             => 'performance-lab',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * Google Site Kit
+                         *
+                         * @link   https://en-au.wordpress.org/plugins/google-site-kit/
+                         * @since  1.0.3
+                         * ---------------- */
+                        'name'             => 'Google Site Kit',
+                        'slug'             => 'google-site-kit',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                    [
+                        /**
+                         * Health Check
+                         *
+                         * @since 1.0.3
+                         * ---------------- */
+                        'name'             => 'Health Check',
+                        'slug'             => 'health-check',
+                        'required'         => false,
+                        'force_activation' => false,
+                    ],
+                ];
     }
 
 endif;
