@@ -1,17 +1,14 @@
-<a href="https://www.imagedirect.com.au/">
-<img width="160" height="67" src="https://www.imagedirect.com.au/wp-content/uploads/2017/07/ID_CMYKLogo_April2017_Final-01.svg" title="imageDirect - Get gound in the noise" />
-</a>
+Author Notice: [forked from TGMPA/TGM-Plugin-Activation](<https://github.com/TGMPA/TGM-Plugin-Activation>)  
 
 ## **imageDirect** - Get found in the noise™  
 ***
 
-# Plugin Registry.  
+# Wordpress Plugin Registry.  
 #### imageDirect recommended plugins for Wordpress 6^.  
 ***
 
 * @version    : v1.0.12 
-* @author     : imageDirect WebTeam  
-* @copyright  : &copy;2022 imageDirect Pty Ltd.  
+* @author     : imageDirect [forked from TGMPA/TGM-Plugin-Activation]  
 * @url        : https://imageDirect.com.au/  
 * @see        : https://github.com/imagedirect/imagedirect-plugin-registry/  
 ***
